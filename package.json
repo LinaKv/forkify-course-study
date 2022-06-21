@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipy app",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html && parcel watch index.html",
+    "build": "parcel build index.html --no-scope-hoist"
+  },
+  "author": "me",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "core-js": "^3.22.8",
+    "fractional": "^1.0.0",
+    "parcel": "^2.6.0",
+    "regenerator-runtime": "^0.13.9",
+    "sass": "^1.26.10"
+  }
+}
